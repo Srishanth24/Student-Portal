@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Student Portal - Academics</title>
+    <link rel="icon" href="Images/Onlylogo-removebg-preview.png">
+
+</head>
+
+<body>
+    <div class="Header">
+        <img src="Images/Logohigh.jpeg" style="height: auto; width: 20%;">
+        <h1 class="Head">Academics</h1>
+    </div>
+    <div class="sections">
+        <div class="Notes">
+            <h2> Notes</h2>
+            <hr>
+            <details>
+                <summary>Data Structure</summary>
+                <ul>
+                    <li><a href="Notes/DS/UNIT - I.pdf" download>Unit-I</a></li>
+                    <li><a href="" download>Unit-II</a></li>
+                    <li><a href="" download>Unit-III</a></li>
+                    <li><a href="" download>Unit-IV</a></li>
+                    <li><a href="" download>Unit-V</a></li>
+                </ul>
+            </details>
+
+            <details>
+                <summary>Digital Electronics</summary>
+                <ul>
+                    <li><a href="" download>Unit-I</a></li>
+                    <li><a href="" download>Unit-II</a></li>
+                    <li><a href="" download>Unit-III</a></li>
+                    <li><a href="" download>Unit-IV</a></li>
+                    <li><a href="" download>Unit-V</a></li>
+                </ul>
+            </details>
+
+            <details>
+                <summary>OOPS through JAVA</summary>
+                <ul>
+                    <li><a href="" download>Unit-I</a></li>
+                    <li><a href="" download>Unit-II</a></li>
+                    <li><a href="" download>Unit-III</a></li>
+                    <li><a href="" download>Unit-IV</a></li>
+                    <li><a href="" download>Unit-V</a></li>
+                </ul>
+            </details>
+
+            <details>
+                <summary>Computer architecture</summary>
+                <ul>
+                    <li><a href="" download>Unit-I</a></li>
+                    <li><a href="" download>Unit-II</a></li>
+                    <li><a href="" download>Unit-III</a></li>
+                    <li><a href="" download>Unit-IV</a></li>
+                    <li><a href="" download>Unit-V</a></li>
+                </ul>
+            </details>
+            <details>
+                <summary>COSM</summary>
+                <ul>
+                    <li><a href="" download>Unit-I</a></li>
+                    <li><a href="" download>Unit-II</a></li>
+                    <li><a href="" download>Unit-III</a></li>
+                    <li><a href="" download>Unit-IV</a></li>
+                    <li><a href="" download>Unit-V</a></li>
+                </ul>
+            </details>
+        </div>
+
+
+        <div class="Results">
+            <h2>Results</h2>
+            <hr>
+            <h3>Details</h3>
+            <label for="RollNumber">RollNumber :</label>
+            <input type="text" placeholder="Enter your Rollnumber">
+            <label for="Year">Year</label>
+            <select name="Year" id="Year">
+                <option value="1st">1st</option>
+                <option value="2nd">2nd</option>
+                <option value="3rd">3rd</option>
+                <option value="4th">4th</option>
+            </select>
+            <label for="Sem">Sem</label>
+            <select name="Sem" id="Sem">
+                <option value="I">I</option>
+                <option value="II">II</option>
+
+            </select>
+
+            <label for="Exam">Exam</label>
+            <select name="Exam" id="Exam">
+                <option value="Mid I">Mid I</option>
+                <option value="Mid II">Mid II</option>
+                <option value="External ">External </option>
+
+
+            </select>
+            <p>Displays the result</p>
+        </div>
+
+    </div>
+
+    <div class="sidebar">
+        <a href="Home.html">Home</a>
+
+        <a href="Academics.html">Academics</a>
+        <a href="Events.html">Events</a>
+        <a href="Fee.html">Fee</a>
+        <a href="Profile.html">Profile</a>
+        <!-- <a href="Logout.html">Logout</a> -->
+    </div>
+
+</body>
+<style>
+    .sidebar {
+        height: 100%;
+        width: 200px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        padding-top: 20px;
+    }
+
+
+    .Header {
+        margin-left: 160px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .sidebar a {
+        padding: 15px;
+        text-decoration: none;
+        font-size: 18px;
+        color: white;
+        display: block;
+
+    }
+
+    .sidebar a:hover {
+        background-color: #575757;
+    }
+
+    .sections {
+        margin-left: 190px;
+        padding: 20px;
+        background-color: beige;
+        border: 1px solid #000000;
+        border-radius: 10px;
+    }
+
+    .Notes {
+        font-size: larger;
+    }
+
+
+    .Results select {
+        width: 150px;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-left: 10px;
+    }
+
+    .Results input {
+        width: 200px;
+        padding: 7px;
+        margin: 8px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    .Head {
+        background-color: bisque;
+        padding: 10px;
+    }
+</style>
+
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Student Portal - Home</title>
+    <link rel="icon" href="Images/Onlylogo-removebg-preview.png">
+</head>
+
+<body>
+    <div class="Header">
+        <img src="Images/Logohigh.jpeg" style="height: auto; width: 20%;">
+        <div class="Head">
+            <h1>Welcome</h1>
+        </div>
+
+    </div>
+
+    <div class="content">
+        <div class="Flex-container">
+            <div class="Attendace">
+                <h3 class="Heading" style="font-size: xx-large;">Attendance</h3>
+                <p class="Circle">75%</p>
+
+            </div>
+
+
+            <div class="Timetable">
+                <h3 style="font-size: xx-large;">Time table</h3>
+                <!-- <iframe src="Sheet1.html"></iframe> -->
+                <img src="Images/TimetableB.jpg" alt="">
+            </div>
+
+        </div>
+        <div class="Exam">
+            <h3 style="font-size: xx-large;">Exam time table</h3>
+            <img src="Images/Examtiemtable.jpg">
+        </div>
+
+    </div>
+
+    <div class="sidebar">
+        <a href="Home.html">Home</a>
+
+        <a href="Academics.html">Academics</a>
+        <a href="Events.html">Events</a>
+        <a href="Fee.html">Fee</a>
+        <a href="Profile.html">Profile</a>
+        <!-- <a href="Logout.html">Logout</a> -->
+    </div>
+
+</body>
+<style>
+    .sidebar {
+        height: 100%;
+        width: 200px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        padding-top: 20px;
+    }
+
+
+    .Header {
+        margin-left: 150px;
+        padding: 20px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .sidebar a {
+        padding: 15px;
+        text-decoration: none;
+        font-size: 18px;
+        color: white;
+        display: block;
+
+    }
+
+    .sidebar a:hover {
+        background-color: #575757;
+    }
+
+    .content {
+        background-color: #d8d9e1;
+        margin-left: 190px;
+    }
+
+    .Circle {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-color: #4CAF50;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+        margin-left: 50px;
+    }
+
+    .Heading {
+        margin-left: 70px;
+    }
+
+    .Timetable iframe {
+        height: 230px;
+        width: 300px;
+    }
+
+    .Timetable img {
+        height: 300px;
+        width: 900px;
+    }
+
+    .Flex-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+
+    .Exam {
+        margin-left: 100px;
+    }
+
+    .Exam img {
+        height: 600px;
+        width: 1000px;
+    }
+
+    .Head {
+        background-color: bisque;
+        padding: 10px;
+        width: 1320px;
+
+    }
+</style>
+
+</html>
